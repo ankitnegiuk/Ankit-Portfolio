@@ -14,5 +14,5 @@ import { ContactComponent } from "./contact/contact.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'ankit portfolio';
 }
