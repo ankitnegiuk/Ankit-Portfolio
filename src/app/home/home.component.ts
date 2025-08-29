@@ -31,7 +31,7 @@ export class HomeComponent implements AfterViewInit {
 
     // Load background image
     this.backgroundImage = new Image();
-    this.backgroundImage.src = "images/home/bg.jpeg";
+    this.backgroundImage.src = "/home/bg.jpeg";
     this.backgroundImage.onload = () => {
       this.initScene();
       requestAnimationFrame(() => this.render());

@@ -80,22 +80,22 @@
 
     0%,
     25% {
-        background-image: url("/images/contact/first.jpeg");
+        background-image: url("/contact/first.jpeg");
     }
 
     25%,
     50% {
-        background-image: url("/images/contact/second.jpeg");
+        background-image: url("/contact/second.jpeg");
     }
 
     50%,
     75% {
-        background-image: url("/images/contact/third.jpeg");
+        background-image: url("/contact/third.jpeg");
     }
 
     75%,
     100% {
-        background-image: url("/images/contact/fourth.jpeg");
+        background-image: url("/contact/fourth.jpeg");
     }
 }
 
