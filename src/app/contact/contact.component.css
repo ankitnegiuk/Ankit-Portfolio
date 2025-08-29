@@ -1,0 +1,104 @@
+:host {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* full height of viewport */
+    overflow: hidden;
+}
+
+.btn {
+    width: 35%;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ecf0f1;
+    border-radius: 3px;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+
+.btn:hover {
+    background-color: rgba(22, 160, 133, .7);
+}
+
+.box {
+    padding: 20px 0;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.btnm {
+    width: 35%;
+    padding: 5px 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ecf0f1;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+
+.btnm:hover {
+    background-color: rgba(22, 160, 133, .7);
+}
+
+/* Background and overlay */
+#color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #34495e, #2c3e50);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.with-bg-size {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-position: center;
+    background-size: cover;
+    animation: back 20s infinite;
+}
+
+@keyframes back {
+
+    0%,
+    25% {
+        background-image: url("/images/contact/first.jpeg");
+    }
+
+    25%,
+    50% {
+        background-image: url("/images/contact/second.jpeg");
+    }
+
+    50%,
+    75% {
+        background-image: url("/images/contact/third.jpeg");
+    }
+
+    75%,
+    100% {
+        background-image: url("/images/contact/fourth.jpeg");
+    }
+}
+
+.point {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<div class="mainHeading textcolor py-5" data-aos="fade-right">Where I’ve Worked</div>
+
+<div #wrap class="slider">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="track" #track
+        (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event)">
+        @for (project of exp; track $index) {
+        <div class="project-card" #card [attr.active]="current === $index ? true : null"
+            (mouseenter)="activate($index, false)">
+            <img class="project-card__bg" [src]="project.image" alt="" />
+
+            <div class="project-card__content">
+                <div class="frosted-box">
+                    <div>
+                        <h3 class="project-card__title">{{ project.title }}</h3>
+                        <p class="project-card__desc mt-2">{{ project.desc }}</p>
+                        <p class="project-card__desc mt-3">{{ project.content }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+<!-- <div class="dots" #dotsBox></div> -->

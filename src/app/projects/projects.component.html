@@ -1,0 +1,30 @@
+<section>
+    <div class="mainHeading" data-aos="fade-up">Some Things I’ve Built</div>
+
+    <div class="l-cards">
+        @for (project of projects; track $index) {
+        <div class="c-card">
+            <div class="c-card__description">
+                <h1 class="c-card__title">{{ project.title }}</h1>
+                <div class="c-card__excerpt">{{ project.excerpt }}</div>
+
+                <div class="c-card__cta">
+                    <a class="button-animation" [href]="project.link" target="_blank">
+                        Visit
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+
+            <figure class="c-card__figure">
+                <img [src]="project.image" [alt]="project.title">
+            </figure>
+        </div>
+        }
+    </div>
+
+    <div class="spacer"></div>
+</section>

@@ -1,0 +1,81 @@
+/* Full-screen reset */
+:host {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    font-family: var(--font-primary);
+    overflow: hidden;
+    background: #222;
+}
+
+/* Full-screen container */
+.containerBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Overlay for darkening the background */
+.panning-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 61, 84, 0.3);
+    z-index: 2;
+}
+
+/* Full-screen panning background */
+.panning-bg {
+    background: url('/images/about/aboutbg.jpeg') no-repeat center center;
+    background-size: cover;
+    /* cover full screen */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    /* double width for smooth pan */
+    height: 200%;
+    /* double height for smooth pan */
+    animation: pan 120s infinite linear;
+    z-index: 1;
+}
+
+/* Smooth panning animation */
+@keyframes pan {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(-25%, -25%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Text overlay */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    /* color: white; */
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    overflow-wrap: break-word;
+}
+
+.contentTxt {
+    color: black;
+}
