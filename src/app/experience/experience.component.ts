@@ -28,7 +28,7 @@ export class ExperienceComponent implements AfterViewInit {
       content: `Worked on projects many projects Implemented secure payment gateways with best coding practices.
 Built live tracking features using Google APIs and WebSockets.
 Mentored a junior developer and ensured project deadlines were met.`,
-      image: '/exp/first.jpeg',
+      image: '/images/exp/first.jpeg',
     },
     {
       title: 'XPERGE',
@@ -36,7 +36,7 @@ Mentored a junior developer and ensured project deadlines were met.`,
       content: `Migrated AngularJS projects to Angular 16.
 Worked on React and Vue.js projects from scratch, gaining hands-on experience.
 Proved capability across multiple frontend frameworks by improving UI performance and API integrations.`,
-      image: '/exp/second.jpeg',
+      image: '/images/exp/second.jpeg',
     },
     {
       title: 'Infowiz',
@@ -44,7 +44,7 @@ Proved capability across multiple frontend frameworks by improving UI performanc
       content: `Learned Angular, React, Node.js, and MongoDB.
 Helped build UIs and supported live company projects.
 Worked with senior developers to deliver small features.`,
-      image: '/exp/third.jpeg',
+      image: '/images/exp/third.jpeg',
     }
   ];
 

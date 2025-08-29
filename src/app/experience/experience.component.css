@@ -15,7 +15,7 @@
     font-family: var(--font-primary);
     /* background: #2980b9; */
     color: #c5c7ce;
-    background-image: url("/exp/bg.jpeg");
+    background-image: url("/images/exp/bg.jpeg");
     height: 100vh;
     background-size: cover;
 }

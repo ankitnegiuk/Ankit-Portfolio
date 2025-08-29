@@ -20,31 +20,31 @@ export class ProjectsComponent implements AfterViewInit, OnInit {
     {
       title: 'Mak.Today',
       excerpt: 'A domestic cleaning booking platform enabling users to browse professional cleaners, view profiles, schedule appointments, and leave reviews. The app simplified household service management through an intuitive interface and seamless booking experience',
-      image: '/projects/first.jpeg',
+      image: '/images/projects/first.jpeg',
       link: 'https://maktoday.co.uk/'
     },
     {
       title: 'Speedyssey',
       excerpt: 'A logistics and delivery app providing fast, secure, and cost-efficient delivery services across iOS, Android, and web. The platform ensured secure transactions, real-time tracking, and PCI-compliant payments, focusing on innovation and user-friendliness.',
-      image: '/projects/second.jpeg',
+      image: '/images/projects/second.jpeg',
       link: 'https://speedyssey.com/'
     },
     {
       title: 'STAG',
       excerpt: 'A smart business card platform leveraging NFC technology for digital contact sharing. It replaced disposable paper cards with eco-friendly, customizable NFC cards, enabling professionals to share unlimited social and business links instantly.',
-      image: '/projects/third.jpg',
+      image: '/images/projects/third.jpg',
       link: 'https://stagnfc.com/#/'
     },
     {
       title: 'Plan & Work',
       excerpt: 'A workforce management platform automating scheduling, time tracking, and payroll. It provided real-time data insights, reduced manual effort, and improved employee satisfaction while enabling businesses to manage operations efficiently.',
-      image: '/projects/fourth.avif',
+      image: '/images/projects/fourth.avif',
       link: 'https://www.app.planandwork.net/'
     },
     {
       title: 'Jcobs Dry Cleaner',
       excerpt: 'An on-demand dry cleaning and laundry service app offering pick-up and delivery options. Provided comprehensive cleaning services with order tracking and customer feedback integration for enhanced convenience and trust.',
-      image: '/projects/fifth.jpg',
+      image: '/images/projects/fifth.jpg',
       link: 'https://jacobsdrycleaners.co.uk/'
     }
   ];

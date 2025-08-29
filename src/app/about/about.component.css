@@ -29,7 +29,7 @@
 
 /* Full-screen panning background */
 .panning-bg {
-    background: url('/about/aboutbg.jpeg') no-repeat center center;
+    background: url('/images/about/aboutbg.jpeg') no-repeat center center;
     background-size: cover;
     /* cover full screen */
     position: absolute;
