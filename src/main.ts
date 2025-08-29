@@ -7,6 +7,6 @@ import { provideAnimations } from '@angular/platform-browser/animations';
 bootstrapApplication(AppComponent, {
   providers: [
     provideAnimations(),
-    provideRouter(routes, withHashLocation()) // <-- use hash routing
+    provideRouter(routes, withHashLocation())
   ]
 }).catch(err => console.error(err));

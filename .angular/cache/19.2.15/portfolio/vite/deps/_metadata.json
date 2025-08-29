@@ -1,79 +1,61 @@
 {
-  "hash": "1424c72a",
-  "configHash": "6fddec0f",
+  "hash": "d915b4bd",
+  "configHash": "0c7b31e0",
   "lockfileHash": "92187a33",
-  "browserHash": "77c9aab3",
+  "browserHash": "bd6ad4ad",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "66ac4308",
+      "fileHash": "396b4cc7",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "d7e2aaea",
-      "needsInterop": false
-    },
-    "@angular/router": {
-      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
-      "file": "@angular_router.js",
-      "fileHash": "e7ef10dc",
-      "needsInterop": false
-    },
-    "aos": {
-      "src": "../../../../../../node_modules/aos/dist/aos.js",
-      "file": "aos.js",
-      "fileHash": "45073a42",
-      "needsInterop": true
-    },
-    "gsap": {
-      "src": "../../../../../../node_modules/gsap/index.js",
-      "file": "gsap.js",
-      "fileHash": "88181929",
-      "needsInterop": false
-    },
-    "gsap/ScrollTrigger": {
-      "src": "../../../../../../node_modules/gsap/ScrollTrigger.js",
-      "file": "gsap_ScrollTrigger.js",
-      "fileHash": "d6441ec7",
-      "needsInterop": false
-    },
-    "@angular/common": {
-      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
-      "file": "@angular_common.js",
-      "fileHash": "aee8d020",
-      "needsInterop": false
-    },
-    "ngx-spinner": {
-      "src": "../../../../../../node_modules/ngx-spinner/fesm2022/ngx-spinner.mjs",
-      "file": "ngx-spinner.js",
-      "fileHash": "90a3e60e",
+      "fileHash": "a871ad62",
       "needsInterop": false
     },
     "@angular/platform-browser/animations": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
       "file": "@angular_platform-browser_animations.js",
-      "fileHash": "dd7f79b9",
+      "fileHash": "3bb48c35",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "08038788",
+      "needsInterop": false
+    },
+    "aos": {
+      "src": "../../../../../../node_modules/aos/dist/aos.js",
+      "file": "aos.js",
+      "fileHash": "91477c9c",
+      "needsInterop": true
+    },
+    "gsap": {
+      "src": "../../../../../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "2c29c5c8",
+      "needsInterop": false
+    },
+    "gsap/ScrollTrigger": {
+      "src": "../../../../../../node_modules/gsap/ScrollTrigger.js",
+      "file": "gsap_ScrollTrigger.js",
+      "fileHash": "a05e5ad4",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-ZORJOCLB": {
-      "file": "chunk-ZORJOCLB.js"
+    "chunk-2WKLRAAB": {
+      "file": "chunk-2WKLRAAB.js"
     },
-    "chunk-4EYEAEUV": {
-      "file": "chunk-4EYEAEUV.js"
+    "chunk-KZ5OOGZ5": {
+      "file": "chunk-KZ5OOGZ5.js"
     },
-    "chunk-GUOSTDUH": {
-      "file": "chunk-GUOSTDUH.js"
-    },
-    "chunk-BIKPWSAO": {
-      "file": "chunk-BIKPWSAO.js"
-    },
-    "chunk-SXKCPRBM": {
-      "file": "chunk-SXKCPRBM.js"
+    "chunk-FR33UDKW": {
+      "file": "chunk-FR33UDKW.js"
     },
     "chunk-3OV72XIM": {
       "file": "chunk-3OV72XIM.js"
