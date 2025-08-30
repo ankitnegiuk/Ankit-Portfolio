@@ -3,7 +3,7 @@
     display: block;
     height: 100vh;
     width: 100%;
-    font-family: var(--font-primary);
+    font-family: var(--font-primary, Arial, sans-serif);
     overflow: hidden;
     background: #222;
 }
@@ -31,7 +31,6 @@
 .panning-bg {
     background: url('/Ankit-Portfolio/images/about/aboutbg.jpeg') no-repeat center center;
     background-size: cover;
-    /* cover full screen */
     position: absolute;
     top: 0;
     left: 0;
@@ -58,14 +57,13 @@
     }
 }
 
-/* Text overlay */
+/* Centered text overlay */
 .content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
-    /* color: white; */
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.6;
@@ -74,8 +72,60 @@
     max-width: 1000px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     overflow-wrap: break-word;
+    color: black;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
+/* Text content inside overlay */
 .contentTxt {
     color: black;
+    font-size: 1rem;
+}
+
+/* Responsive for tablets */
+@media (max-width: 1024px) {
+    .content {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+
+    .contentTxt {
+        font-size: 0.95rem;
+    }
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .contentTxt {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Responsive for very small mobile devices */
+@media (max-width: 480px) {
+    .content {
+        width: 95%;
+        font-size: 0.95rem;
+    }
+
+    .contentTxt {
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
 }
